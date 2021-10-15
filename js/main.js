@@ -7,5 +7,6 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(`
                     #home .image, #home .text,
-                    #home .button
+                    #home .button,
+                    footer .logos, footer .text
                     `, {interval:100});
