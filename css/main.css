@@ -86,23 +86,24 @@ main{
 
 
 #home .text-content a{
-    display: flex;
+    width: 15rem;
+    height: 4rem;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     color: white;
-    text-decoration:none;
-    transition: all 0.2s;
+    text-decoration: none;
     margin: 0 auto;
-    width: 15rem;
-    height: 4rem;
     background: var(--green-primary-color);
     padding:0 1.5rem;
     border-radius: .5rem;
     
+    transition: all 0.1s;
 }
 
 #home .text-content a:hover{
-    transform:scale(1.05);
+    
+    transform:scale(1.06) !important;
     
 }
 
@@ -195,10 +196,6 @@ footer .text p span{
 
     #home .text-content a{
     
-        display: flex;
-        color: white;
-        text-decoration:none;
-        transition: all 0.2s;
         margin: 0;
         
     }
