@@ -17,6 +17,7 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+
     
 }
 
@@ -136,26 +137,27 @@ footer .container{
 
 
 
-.text {
+footer .text {
     text-align: center;
     color: var(--body-color);
 }
 
-.text p{
+footer .text p{
     font-size:1rem;
     font-weight: bold;
     
+    
 }
 
-.text p:nth-child(2){
+footer .text p:nth-child(2){
     margin-top:-6px;
 }
 
-.mt {
+footer .mt {
     margin-top: 1rem
 }
 
-.text p span{
+footer .text p span{
     color: var(--green-primary-color);
 }
 
@@ -219,7 +221,7 @@ footer .container{
 
    
 
-    .text {
+    footer .text {
         text-align: right;
         
     }
