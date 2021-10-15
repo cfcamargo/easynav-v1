@@ -45,7 +45,7 @@ header {
 
 main{
     background: var(--body-color);
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 90px);
 }
 
